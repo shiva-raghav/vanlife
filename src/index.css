@@ -1,0 +1,165 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  background-color: #fff7ed;
+  color: #161616;
+  height: 100vh;
+}
+
+div#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  height: 100%;
+}
+
+.container {
+  padding: 0 27px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #252525;
+}
+
+.home-container {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.46);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.46),
+      rgba(0, 0, 0, 0.46)
+    ),
+    url("../public/assets/man_on_caravan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  align-items: center;
+}
+
+.home-container > h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 42px;
+  margin-bottom: 23px;
+}
+
+.home-container > p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 52px;
+}
+
+.home-container > a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+  background-color: #ff8c38;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.about-container {
+  background-color: #fff7ed;
+  color: #161616;
+  padding-top: 38px;
+  padding-bottom: 50px;
+}
+
+.about-img-container > img {
+  max-width: 100%;
+}
+
+.about-container > h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 12px 0;
+}
+
+.about-container > p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.about-container > p:not(:last-of-type) {
+  margin: 30px 0;
+}
+
+.about-container > p:last-of-type {
+  margin-bottom: 55px;
+}
+
+.cta {
+  padding: 32px 37px;
+  background-color: #ffcc8d;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.cta > p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.cta > a {
+  padding: 12px 22px;
+  background-color: #161616;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-top: 25px;
+}
