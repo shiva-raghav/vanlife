@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 26px;
+  background-color: #fff7ed;
+}
+
+.logo h1 {
+  font-size: 1.625rem;
+  font-weight: 900;
+  line-height: 40px;
+  color: #000000;
+}
+
+
