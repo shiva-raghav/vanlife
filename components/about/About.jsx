@@ -7,7 +7,7 @@ export default function About({ children }) {
         <img
           className="hero-image"
           alt="man sitting on top of van"
-          src="../../public/assets/man_sitting_on_caravan.png"
+          src="../../assets/man_sitting_on_caravan.png"
         />
       </div>
       <div className="container about-container">
