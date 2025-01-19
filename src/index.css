@@ -50,10 +50,6 @@ a {
   text-decoration: none;
 }
 
-main {
-  height: 100%;
-}
-
 .container {
   padding: 40px 27px;
   display: flex;
