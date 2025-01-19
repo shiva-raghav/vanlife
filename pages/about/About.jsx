@@ -24,7 +24,7 @@ export default function About({ children }) {
         <div className="cta">
           <p>Your destination is waiting.</p>
           <p>Your van is ready.</p>
-          <Link to="/vans">Explore our vans</Link>
+          <Link to="/vans/category">Explore our vans</Link>
         </div>
       </div>
     </>
