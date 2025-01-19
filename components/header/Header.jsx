@@ -13,7 +13,7 @@ export default function Header({ children }) {
         </div>
         <Nav>
           <Nav.Item path="/about">About</Nav.Item>
-          <Nav.Item path="/vans">Vans</Nav.Item>
+          <Nav.Item path="/vans/category">Vans</Nav.Item>
         </Nav>
       </header>
     </>

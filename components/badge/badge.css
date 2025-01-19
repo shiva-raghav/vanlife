@@ -1,0 +1,30 @@
+.badge {
+  width: 104px;
+  height: 37px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 5px;
+  padding: 6px 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ffead0;
+  color: #4d4d4d;
+}
+
+.simple {
+  background-color: #e17654;
+  color: #ffead0;
+}
+
+.luxury {
+  background-color: #161616;
+  color: #ffead0;
+}
+
+.rugged {
+  background-color: #115e59;
+  color: #ffead0;
+}

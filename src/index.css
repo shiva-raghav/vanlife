@@ -19,17 +19,25 @@ p {
   margin: 0;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-color: #fff7ed;
   color: #161616;
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 div#root {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  height: 100vh;
 }
 
 ul {
@@ -47,11 +55,11 @@ main {
 }
 
 .container {
-  padding: 0 27px;
-  height: 100%;
+  padding: 40px 27px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 1;
 }
 
 footer {
@@ -137,6 +145,12 @@ footer {
 
 .about-container > p:last-of-type {
   margin-bottom: 55px;
+}
+
+.category-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 27px 34px;
 }
 
 .cta {

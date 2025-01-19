@@ -7,7 +7,7 @@ export default function About({ children }) {
         <img
           className="hero-image"
           alt="man sitting on top of van"
-          src="../../public/assets/man_sitting_on_caravan.png"
+          src="../../assets/man_sitting_on_caravan.png"
         />
       </div>
       <div className="container about-container">
@@ -24,7 +24,7 @@ export default function About({ children }) {
         <div className="cta">
           <p>Your destination is waiting.</p>
           <p>Your van is ready.</p>
-          <Link to="/vans">Explore our vans</Link>
+          <Link to="/vans/category">Explore our vans</Link>
         </div>
       </div>
     </>
