@@ -1,0 +1,40 @@
+.product-tile-container {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+
+.product-image {
+  width: 229.23px;
+  border-radius: 5px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px 0 0;
+}
+
+.cost-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cost-info {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.per-day-info {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding-right: 1px;
+}
+
+.badge {
+  position: relative;
+  top: -5px;
+}
