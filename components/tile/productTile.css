@@ -1,11 +1,10 @@
 .product-tile-container {
   display: flex;
   flex-direction: column;
-  width: 230px;
 }
 
 .product-image {
-  width: 229.23px;
+  max-width: 100%;
   border-radius: 5px;
 }
 
