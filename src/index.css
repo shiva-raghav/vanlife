@@ -145,8 +145,20 @@ footer {
 
 .category-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 27px 34px;
+}
+
+@media (min-width: 500px) {
+  .category-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .category-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .category-title {
