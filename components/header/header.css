@@ -5,11 +5,13 @@ header {
   background-color: #fff7ed;
 }
 
+.logo {
+  margin-right: 40px;
+}
+
 .logo h1 {
   font-size: 1.625rem;
   font-weight: 900;
   line-height: 40px;
   color: #000000;
 }
-
-

@@ -50,10 +50,6 @@ a {
   text-decoration: none;
 }
 
-main {
-  height: 100%;
-}
-
 .container {
   padding: 40px 27px;
   display: flex;
@@ -148,9 +144,19 @@ footer {
 }
 
 .category-container {
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 27px 34px;
+}
+
+.category-title {
+  padding: 0 26px;
+}
+
+.category-container h1 {
+  font-size: 2rem;
+  line-height: 34px;
+  font-weight: 700;
 }
 
 .cta {
