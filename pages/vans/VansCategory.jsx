@@ -35,6 +35,9 @@ export default function VansCategory() {
 
   return (
     <>
+      <div className="category-title">
+        <h1>Explore our van options</h1>
+      </div>
       <div className="container category-container">{productTiles}</div>
     </>
   );

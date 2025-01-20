@@ -1,11 +1,10 @@
 .product-tile-container {
   display: flex;
   flex-direction: column;
-  width: 230px;
 }
 
 .product-image {
-  width: 229.23px;
+  max-width: 100%;
   border-radius: 5px;
 }
 
@@ -15,7 +14,11 @@
   align-items: flex-start;
   padding: 5px 0 0;
 }
-
+.title-info {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 22px;
+}
 .cost-info-wrapper {
   display: flex;
   flex-direction: column;
