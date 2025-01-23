@@ -3,13 +3,9 @@ import "./nav.css";
 export default function Nav({ children }) {
   return (
     <>
-      <nav>
-        {children && (
-          <div className="navigation">
-            <ul>{children}</ul>
-          </div>
-        )}
-      </nav>
+      <div className="navigation">
+        <nav>{children && <ul>{children}</ul>}</nav>
+      </div>
     </>
   );
 }
