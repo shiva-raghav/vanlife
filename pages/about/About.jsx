@@ -10,7 +10,7 @@ export default function About({ children }) {
           src="../../assets/man_sitting_on_caravan.png"
         />
       </div>
-      <div className="container about-container">
+      <div className="content-wrapper about-container">
         <h2>Don’t squeeze in a sedan when you could relax in a van.</h2>
         <p>
           Our mission is to enliven your road trip with the perfect travel van
@@ -24,7 +24,7 @@ export default function About({ children }) {
         <div className="cta">
           <p>Your destination is waiting.</p>
           <p>Your van is ready.</p>
-          <Link to="/vans/category">Explore our vans</Link>
+          <Link to="/vans">Explore our vans</Link>
         </div>
       </div>
     </>

@@ -1,10 +1,14 @@
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
-.navigation > ul {
+.navigation {
+  display: flex;
+}
+
+.navigation ul {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -20,4 +24,11 @@ nav {
 .navigation li > a:hover {
   color: #161616;
   text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+a.active-link {
+  color: #161616;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
