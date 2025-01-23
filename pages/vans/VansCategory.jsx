@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import ProductTile from "../../components/tile/ProductTile";
-
+import "../../src/server";
 // {
 //   description: "The Modest Explorer is a van designed to get you out of the house and into nature. This beauty is equipped with solar panels, a composting toilet, a water tank and kitchenette. The idea is that you can pack up your home and escape for a weekend or even longer!";
 //   id: "1";
@@ -25,6 +25,7 @@ export default function VansCategory() {
     return (
       <ProductTile
         key={van.id}
+        id={van.id}
         imageUrl={van.imageUrl}
         name={van.name}
         price={van.price}
@@ -35,10 +36,12 @@ export default function VansCategory() {
 
   return (
     <>
-      <div className="category-title">
-        <h1>Explore our van options</h1>
+      <div className="content-wrapper category-container">
+        <div className="category-title">
+          <h1>Explore our van options</h1>
+        </div>
+        <div className="product-tiles-container">{productTiles}</div>
       </div>
-      <div className="container category-container">{productTiles}</div>
     </>
   );
 }

@@ -5,7 +5,7 @@ import "./productTile.css";
 export default function ProductTile({ id, imageUrl, name, price, type }) {
   return (
     <>
-      <div className="product-tile-container">
+      <div className="product-tile">
         <Link to={`/vans/${id}`}>
           <img
             className="product-image"

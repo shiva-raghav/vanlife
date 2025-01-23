@@ -1,4 +1,4 @@
-.product-tile-container {
+.product-tile {
   display: flex;
   flex-direction: column;
 }
@@ -21,11 +21,6 @@
   line-height: 22px;
 }
 
-/* @media (min-width: 500px) {
-  .title-info {
-    font-size: 1.25rem;
-  }
-} */
 .cost-info-wrapper {
   display: flex;
   flex-direction: column;
