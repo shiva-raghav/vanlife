@@ -92,6 +92,7 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   justify-content: center;
+  align-items: center;
 }
 
 .home-container > h1 {
@@ -213,4 +214,85 @@ footer {
 
 .host {
   gap: 24px;
+}
+
+.listed-vans-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.listed-vans-section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listed-vans-section > div h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.listed-vans-section > div a {
+  color: #161616;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.listed-vans-section > div a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.listed-vans ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.listed-vans .list-item {
+  padding: 18px 24px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listed-vans .list-item .edit-info > a {
+  color: #161616;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.listed-vans .list-item .edit-info > a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.list > a {
+  display: flex;
+  gap: 17px;
+}
+
+.list .product-image {
+  width: 66px;
+}
+
+.list .info {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list .cost-info-wrapper {
+  flex-direction: row;
+}
+
+.list .cost-info-wrapper span {
+  color: #4d4d4d;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 32px;
 }

@@ -2,11 +2,19 @@ import { Link } from "react-router-dom";
 import Badge from "../badge/Badge";
 import "./productTile.css";
 
-export default function ProductTile({ id, imageUrl, name, price, type }) {
+export default function ProductTile({
+  id,
+  imageUrl,
+  name,
+  price,
+  description,
+  type,
+  tileType,
+}) {
   return (
     <>
-      <div className="product-tile">
-        <Link to={`/vans/${id}`}>
+      <div key={id} className={`"product-tile" ${tileType}`}>
+        <Link to={`${id}`}>
           <img
             className="product-image"
             src={imageUrl}
@@ -18,10 +26,17 @@ export default function ProductTile({ id, imageUrl, name, price, type }) {
               <span className="cost-info">{`$${price}`}</span>
               <span className="per-day-info">/day</span>
             </div>
+            {tileType === "product" ? (
+              <div className="description">
+                <p>{description}</p>
+              </div>
+            ) : null}
           </div>
-          <Badge type={type}>
-            {type.charAt(0).toUpperCase() + type.slice(1).toLowerCase()}
-          </Badge>
+          {type && (
+            <Badge type={type}>
+              {type.charAt(0).toUpperCase() + type.slice(1).toLowerCase()}
+            </Badge>
+          )}
         </Link>
       </div>
     </>
