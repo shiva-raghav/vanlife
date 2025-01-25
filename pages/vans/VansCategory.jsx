@@ -21,15 +21,17 @@ export default function VansCategory() {
       });
   }, []);
 
-  const productTiles = vans.map((van) => {
+  const productTiles = vans.map((van, index) => {
     return (
       <ProductTile
-        key={van.id}
+        key={index}
         id={van.id}
         imageUrl={van.imageUrl}
         name={van.name}
         price={van.price}
         type={van.type}
+        description={van.description}
+        tileType="category"
       />
     );
   });
