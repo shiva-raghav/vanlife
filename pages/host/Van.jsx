@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ProductTile from "../../components/tile/ProductTile";
 
-export default function VanDetail() {
+export default function Van() {
   const [van, setVan] = useState([]);
   const { id } = useParams();
 
