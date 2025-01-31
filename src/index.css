@@ -245,6 +245,7 @@ footer {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
 .listed-vans ul {
   display: flex;
   flex-direction: column;
@@ -295,4 +296,73 @@ footer {
   font-size: 1rem;
   font-weight: 500;
   line-height: 32px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.not-found-container > h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+}
+
+.not-found-container .link-button {
+  background-color: #161616;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.filters .btn {
+  background-color: #ffead0;
+  color: #4d4d4d;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn.simple:hover,
+.btn.simple-filter-selected {
+  background-color: #e17654;
+  color: #ffead0;
+}
+
+.btn.luxury:hover,
+.btn.luxury-filter-selected {
+  background-color: #161616;
+  color: #ffead0;
+}
+
+.btn.rugged:hover,
+.btn.rugged-filter-selected {
+  background-color: #115e59;
+  color: #ffead0;
+}
+
+.filters > a {
+  color: #4d4d4d;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }

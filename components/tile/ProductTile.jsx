@@ -10,11 +10,12 @@ export default function ProductTile({
   description,
   type,
   tileType,
+  state,
 }) {
   return (
     <>
       <div key={id} className={`"product-tile" ${tileType}`}>
-        <Link to={`${id}`}>
+        <Link to={`${id}`} state={state}>
           <img
             className="product-image"
             src={imageUrl}
