@@ -14,17 +14,17 @@
   color: #4d4d4d;
 }
 
-.simple {
+.badge.simple {
   background-color: #e17654;
   color: #ffead0;
 }
 
-.luxury {
+.badge.luxury {
   background-color: #161616;
   color: #ffead0;
 }
 
-.rugged {
+.badge.rugged {
   background-color: #115e59;
   color: #ffead0;
 }
