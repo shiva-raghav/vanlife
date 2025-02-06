@@ -163,6 +163,14 @@ footer {
   gap: 24px;
   padding: 0 26px;
 }
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
 .product-tiles-container {
   display: grid;
   grid-template-columns: 1fr;
